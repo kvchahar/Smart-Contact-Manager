@@ -38,7 +38,6 @@ public class User {
 	private String imageUrl;
 	
 	@Column(length = 500)
-	
 	@NotBlank(message = "about field must not be blank")
 	private String about;
 	
